@@ -27,13 +27,11 @@
         setInterval(() => {
             //get current time
             let currentTime = new Date();
-
             //display current time
             hrs.innerHTML =  (currentTime.getHours() < 10 ? '0' : '') + currentTime.getHours();
             mins.innerHTML = (currentTime.getMinutes() < 10 ? '0' : '') + currentTime.getMinutes();
             secs.innerHTML = (currentTime.getSeconds() < 10 ? '0' : '') + currentTime.getSeconds();
         }, 1000);
-        
     </script>
 </body>
 </html>
